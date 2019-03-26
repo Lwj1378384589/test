@@ -1,0 +1,6 @@
+com\kalix\training\chat\biz\ChatMessageDecoder.class
+com\kalix\training\chat\biz\internal\InitActivator.class
+com\kalix\training\chat\biz\ChatMessageEncoder.class
+com\kalix\training\chat\biz\ChatEndpoint.class
+com\kalix\training\chat\biz\ChatMessage.class
+com\kalix\training\chat\biz\ChatServiceImpl.class

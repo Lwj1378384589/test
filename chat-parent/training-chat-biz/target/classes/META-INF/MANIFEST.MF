@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1553567306686
+Build-Jdk: 1.8.0_66
+Built-By: Administrator
+Bundle-Activator: com.kalix.training.chat.biz.internal.InitActivator
+Bundle-Blueprint: OSGI-INF/blueprint/chat-service.xml
+Bundle-Category: Kalix Training Chat
+Bundle-ManifestVersion: 2
+Bundle-Name: Kalix Training Chat Biz
+Bundle-SymbolicName: com.kalix.training.chat.biz
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.kalix.training.chat.biz;version="1.0.0.SNAPSHOT";use
+ s:="com.kalix.training.chat.api.biz,javax.websocket,javax.websocket.ser
+ ver",com.kalix.training.chat.biz.internal;version="1.0.0.SNAPSHOT";uses
+ :="com.kalix.framework.core.api.osgi"
+Import-Package: com.kalix.framework.core.api.osgi;version="[1.0,2)",com.
+ kalix.training.chat.api.biz;version="[1.0,2)",javax.json;version="[1.0,
+ 2)",javax.websocket,javax.websocket.server,org.osgi.service.blueprint;v
+ ersion="[1.0.0,2.0.0)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Web-ContextPath: /training-websocket
